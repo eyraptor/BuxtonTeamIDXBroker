@@ -212,6 +212,12 @@ body {
   opacity: 1;
 }
 
+a {
+  color: var(--clr-primary-100);
+  text-decoration:none;
+  -webkit-tap-highlight-color: transparent;
+}
+
 /* Navigation */
 
 .primary-header {
@@ -223,6 +229,15 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.flex-around {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 5em;
+  padding-top: 3em;
+  padding-bottom: 3em;
 }
 
 .mobile-nav-toggle {
@@ -245,6 +260,10 @@ body {
 .nav-list a:hover,
 .nav-list a:focus {
   color: var(--clr-primary-400);
+}
+
+.white-back {
+  background-color: white;
 }
 
 /* button */
@@ -305,9 +324,9 @@ body {
 }
 
 .container {
-  --max-width: 1500px;
+  /* --max-width: 1500px; */
   --padding: 1rem;
-  width: min(var(--max-width), 100% - (var(--padding) * 2));
+  /* width: min(var(--max-width), 100% - (var(--padding) * 2)); */
   margin-inline: auto;
 }
 
@@ -319,10 +338,38 @@ body {
   border: 5px solid black;
 }
 
+.grid-container3 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 5px;
+  place-items: center;
+}
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  place-items: center;
+}
+
+.grid-item {
+  background-color: white;
+}
+
 .outer-flex {
   display: flex;
   flex-direction: row;
+  justify-items: center;
+  justify-content: center;
   align-items: center;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  border: solid red 3px;
+}
+.hide-text {
+  display: block;
 }
 .center-align-text-color button {
   display: block;
@@ -425,6 +472,10 @@ body {
 .max-width-90p-h-auto {
   max-width: 90%;
   height: auto;
+}
+
+.max-width-1500px {
+  max-width: 1500px;
 }
 
 .padding-15 {
@@ -602,8 +653,20 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  font-size: var(--fs-1000);
+}
+
 img {
   border-radius: 15px;
+}
+
+.var-large {
+  font-size: var(--fs-600);
+}
+
+.med-large-font {
+  font-size: var(--fs-1000);
 }
 
 /* Slide Box in from sides */
@@ -808,13 +871,17 @@ label.required:after {
 /* This is the code for the cards with hover affect */
 
 .card {
-  color: var(--clr-neutral-100);
+  color: var(--clr-primary-100);
+  background-color: var(--clr-neutral-100);
   background-size: cover;
-  padding: 10rem 0 0;
+  padding: 4rem 2rem 0;
   max-width: 43ch;
   border-radius: 0.5rem;
   overflow: hidden;
   transition: transform 500ms ease;
+  height: 300px;
+  text-align: center;
+  margin: 50px;
 }
 
 .card:hover,
@@ -903,7 +970,7 @@ label.required:after {
 
 /* Media Quiries for Screen Size */
 
-@media (max-width: 65em) {
+@media (max-width: 1040px) {
   .v-align-top {
     display: block;
     margin: 20px auto;
@@ -911,13 +978,22 @@ label.required:after {
   .outer-flex {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    text-align: center;
     max-width: 100%;
+  }
+  
+  .hide-text {
+    display: none;
   }
   .max-width-40 {
     max-width: 100%;
     margin: 5px;
   }
+
+  .var-large {
+  font-size: var(--fs-1000);
+}
+
 
   .primary-navigation {
     display: none;
@@ -980,6 +1056,14 @@ label.required:after {
   .mobile-nav-toggle .icon-close {
     display: none;
   }
+}
+
+@media (max-width: 1200px) {
+  /* .grid-container3 {
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto;
+    grid-template-rows: repeat(3, 1fr);
+  } */
 }
 
 @media (max-width: 5em) {
