@@ -335,7 +335,6 @@ a {
   margin-top: 80px;
   display: flex;
   justify-content: space-around;
-  border: 5px solid black;
 }
 
 .grid-container3 {
@@ -367,7 +366,6 @@ a {
   align-items: center;
   padding-top: 3em;
   padding-bottom: 3em;
-  border: solid red 3px;
 }
 .hide-text {
   display: block;
