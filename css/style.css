@@ -115,7 +115,7 @@
   color: white;
 }
 
-@media (min-width: 56em) {
+@media (min-width: 900px) {
   :root {
     --fs-body: var(--fs-500);
     --fs-primary-heading: var(--fs-900);
@@ -285,12 +285,12 @@ a {
   font-weight: var(--fw-black);
   font-size: var(--fs-button);
   line-height: 1;
-  color: var(--clr-neutral-900);
-  background-color: var(--clr-pop-100);
+  color: var(--clr-primary-400);
+  background-color: var(--clr-primary-100);
   box-shadow: 0 1.125em 1em -1em var(--cls-primary-200);
   font-size: var(--size-300);
   margin-top: 2em;
-  margin-right: 35px;
+  /* margin-right: 35px; */
 }
 
 .width-211-center {
@@ -302,8 +302,8 @@ a {
 
 .button:hover,
 .button:focus-visible {
-  background-color: var(--clr-pop-200);
-  font-style: italic;
+  /* background-color: var(--clr-primary-200); */
+  /* font-style: italic; */
 }
 
 /* Utility Classes  */
@@ -576,6 +576,10 @@ a {
   margin-bottom: 10px;
 }
 
+.margin-b-20 {
+  margin-bottom: 20px;
+}
+
 .margin-rl-20 {
   margin-left: 20px;
   margin-right: 20px;
@@ -591,6 +595,10 @@ a {
 
 .margin-t-30px {
   margin-top: 30px;
+}
+
+.margin-t-400px {
+  margin-top: 400px;
 }
 
 .margin-rl30 {
@@ -650,9 +658,9 @@ a {
   position: absolute;
   top: 0px;
   left: 0;
-  z-index: -10;
-  opacity: .5;
-  background: linear-gradient(rgba(0, 0, 0, 0.0) 0%,#333333 50%);
+  z-index: -1;
+  opacity: 1;
+  background: linear-gradient(rgba(0, 0, 0, 0.0) 10%,#0a0a0a 60%);
  }
 
 /* .top-margin-20-lr-center {
@@ -958,11 +966,11 @@ label.required:after {
   background-color: var(--clr-neutral-100);
   background-size: cover;
   padding: 4rem 2rem 0;
-  max-width: 43ch;
+  max-width: 40ch;
   border-radius: 0.5rem;
   overflow: hidden;
   transition: transform 500ms ease;
-  height: 300px;
+  height: 400px;
   text-align: center;
   margin: 50px;
 }
@@ -1149,10 +1157,11 @@ label.required:after {
   } */
 }
 
-@media (max-width: 5em) {
+/* @media (max-width: 5em) {
   .button3::before {
     font-size: 2em;
   }
+
   .button-hide {
     display: none;
   }
@@ -1170,9 +1179,9 @@ label.required:after {
   .nav-list {
       color: var(--clr-primary-900)
     }
-}
+} */
 
-@media (max-width: 32em) {
+/* @media (max-width: 32em) {
   .button3::before {
     font-size: 1em;
     .nav-list {
@@ -1198,7 +1207,7 @@ label.required:after {
   h2 {
     font-size: var(--fs-500);
   }
-}
+} */
 
 @media (max-width: 22em) {
   .button3::before {
@@ -1210,5 +1219,14 @@ label.required:after {
 @media (max-width: 1040px) {
   .nav-list a {
     color: var(--clr-primary-100);
+  }
+}
+
+@media (max-width: 500px) {
+  .margin-b-20 {
+    margin-bottom: 5px;
+  }
+  .margin-t-30px {
+    margin-top: 15px;
   }
 }
