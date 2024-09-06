@@ -196,7 +196,7 @@ body {
   font-size: var(--fs-body);
   font-family: var(--ff-body);
   color: var(--clr-primary-100);
-  background-image: url('..\/City Night.png');
+  background-image: url('/City Night.png');
   background-size:cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -377,6 +377,11 @@ a {
 
 .hero-pic {
   /* margin-left: 35px; */
+}
+
+.hero-p {
+  font-size: var(--fs-600);
+  padding: 100px;
 }
 
 .max-width-70 {
@@ -1039,6 +1044,12 @@ label.required:after {
     font-size: var(--fs-nav);
     padding: 4px;
   }
+
+  .hero-p {
+    font-size: var(--fs-400);
+    padding: 20px;
+  }
+
   li {
     color: var(--clr-accent-100);
   }
