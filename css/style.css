@@ -998,28 +998,29 @@ label.required:after {
   .mobile-nav-toggle {
     display: block;
     position: fixed;
-    top: 10px;
+    background-size: cover;
+    top: 25px;
     right: 10px;
     cursor: pointer;
-    background: transparent;
-    padding: 0.5rem;
-    width: 3rem;
+    width: 34px;
+    height: 30px;
     aspect-ratio: 1;
     z-index: 1;
-    border: 0;
     background-image: url('/images/hamburger-menu-svgrepo-com.svg');
+    background-color: white;
+    border: 0px;
   }
 
   .mobile-nav-toggle[aria-expanded='true'] {
     width: 1.5rem;
     height: 1.5rem;
-    /* background-size: contain; */
     top: 30px;
-    right: 15px;
+    right: 17px;
     color: var(--clr-primary-400);
     z-index: 1;
     border: none;
     background-image: url('/images/icon-close.svg');
+    background-color: white;
   }
 
   .mobile-nav-toggle .icon-close {
