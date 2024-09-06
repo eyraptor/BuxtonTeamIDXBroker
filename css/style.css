@@ -453,7 +453,7 @@ a {
 
 #IDX-quicksearch-26136 {
   margin: 100px 50px 0px 50px;
-  padding: 25px 25px 25px 25px;
+  padding: 25px 25px 5px 25px;
   background-color: white;
   color: var(--clr-primary-400);
 }
@@ -988,7 +988,7 @@ label.required:after {
    font-size: var(--fs-600);
    max-width: 75%;
    margin-inline: auto;
-   margin-top: 50px;
+   /* margin-top: 50px; */
    margin-bottom: 100px;
   }
   .primary-navigation[data-visible] {
@@ -1051,7 +1051,7 @@ label.required:after {
    font-size: var(--fs-500);
    max-width: 100%;
    margin-inline: 25px;
-   margin-top: 50px;
+   /* margin-top: 50px; */
    margin-bottom: 100px;
   }
 
@@ -1075,7 +1075,7 @@ label.required:after {
    font-size: var(--fs-500);
    max-width: 100%;
    margin-inline: 25px;
-   margin-top: 50px;
+   /* margin-top: 50px; */
    margin-bottom: 100px;
   }
 }
@@ -1116,6 +1116,6 @@ label.required:after {
     padding: 20px;
     margin-inline: 25px
     margin-bottom: 50px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
   }
 }
