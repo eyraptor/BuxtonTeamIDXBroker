@@ -1114,6 +1114,7 @@ label.required:after {
   .hero-p {
     font-size: var(--fs-400);
     padding: 20px;
+    margin-inline: 25px
     margin-bottom: 50px;
   }
 }
