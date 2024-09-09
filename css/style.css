@@ -111,6 +111,25 @@
   color: white;
 }
 
+.clr-primary-100 {
+  color: var(--clr-primary-100);
+}
+
+.clr-primary-200 {
+  color: var(--clr-primary-200);
+}
+
+.clr-primary-300 {
+  color: var(--clr-primary-300);
+}
+
+.clr-primary-400 {
+  color: var(--clr-primary-400);
+}
+
+--clr-primary-200: #95b0b7;
+--clr-primary-300: #00a8d5;
+--clr-primary-400: black;
 
 /* // https://piccalil.li/blog/a-modern-css-reset
 
@@ -209,6 +228,18 @@ svg {
   font-family: var(--ff-body);
   color: var(--clr-primary-100);
   background-image: url('/City Street with Pools.png');
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top, bottom;
+  opacity: 1;
+}
+
+.body-okc {
+  font-size: var(--fs-body);
+  font-family: var(--ff-body);
+  color: var(--clr-primary-100);
+  background-image: url('/Images/OKC-Logo-Wheeler1200X800.webp');
   background-size:cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -653,9 +684,8 @@ a {
  }
 
 h1 {
-  font-size: var(--size-1000);
+  font-size: var(--size-5000);
   text-align: center;
-  color: var(--clr-primary-100);
 }
 
 p {
@@ -1158,6 +1188,10 @@ label.required:after {
 
   .margin-t-30px {
     margin-top: 15px;
+  }
+
+  .fs-4000 {
+    font-size: var(--fs-900);
   }
   
   .hero-p {
