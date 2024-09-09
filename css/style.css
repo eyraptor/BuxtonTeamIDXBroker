@@ -667,7 +667,7 @@ a {
   left: 0;
   z-index: -1;
   opacity: 1;
-  background: linear-gradient(rgba(0, 0, 0, 0.0) 10%,#292929 80%);
+  background: linear-gradient(rgba(0, 0, 0, 0.0) 30%,#292929 80%);
  }
 
 .img-overlay2::after {
@@ -1014,6 +1014,9 @@ label.required:after {
 /* Media Quiries for Screen Size */
 
 @media (max-width: 1040px) {
+  .black-back {
+    background-color: transparent;
+  }
   .nav-list {
     display: grid;
     gap: clamp(var(--size-400), 1vw, var(--size-700));
@@ -1154,6 +1157,10 @@ label.required:after {
 
   li {
     color: var(--clr-accent-100);
+  }
+
+  h1 {
+    font-size: var(--fs-900);
   }
 }
 
