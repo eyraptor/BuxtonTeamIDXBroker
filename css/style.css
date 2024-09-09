@@ -107,6 +107,10 @@
   font-size: var(--fs-10000);
 }
 
+.fw-900 {
+  font-weight: var(--fw-bold);
+}
+
 .text-color-white {
   color: white;
 }
@@ -127,9 +131,9 @@
   color: var(--clr-primary-400);
 }
 
---clr-primary-200: #95b0b7;
---clr-primary-300: #00a8d5;
---clr-primary-400: black;
+.under-line-text {
+  text-decoration: underline;
+}
 
 /* // https://piccalil.li/blog/a-modern-css-reset
 
@@ -244,6 +248,43 @@ svg {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: top, bottom;
+  opacity: 1;
+}
+
+.body-arcadia {
+  font-size: var(--fs-body);
+  font-family: var(--ff-body);
+  color: var(--clr-primary-100);
+  background-image: url('/Images/Arcadia-Red-Barn1200X800.webp');
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top, bottom;
+  opacity: 1;
+}
+
+.body-bethany {
+  font-size: var(--fs-body);
+  font-family: var(--ff-body);
+  color: var(--clr-primary-100);
+  background-image: url('/Images/Bethany Home1200X800.webp');
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 1;
+}
+
+
+.body-nichols-hills {
+  font-size: var(--fs-body);
+  font-family: var(--ff-body);
+  color: var(--clr-primary-100);
+  background-image: url('/Images/Nichols Hills Home Night1200X800.webp');
+  background-position: bottom;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   opacity: 1;
 }
 
@@ -438,6 +479,10 @@ a {
   max-width: 50%;
 }
 
+.max-width-1000px {
+  max-width: 1000px;
+}
+
 .img-40perc-center {
   display: block;
   margin: 0 auto;
@@ -465,6 +510,10 @@ a {
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
+}
+
+.add-radius-20px {
+  border-radius: 20px;
 }
 
 .add-border {
@@ -561,8 +610,17 @@ a {
   max-width: 1500px;
 }
 
+.padding-l-15px {
+  padding-left: 15px;
+}
+
+.padding-r-15px {
+  padding-right: 15px;
+}
+
 .padding-inline-30px {
-  padding-inline: 30px;
+  padding-right: 30px;
+  padding-left: 30px;
 }
 
 .padding-15 {
@@ -603,17 +661,25 @@ a {
   margin-bottom: 20px;
 }
 
+.text-align-l {
+  text-align: left;
+}
+
 .margin-rl-20 {
   margin-left: 20px;
   margin-right: 20px;
 }
 
-.margin-b-30 {
-  margin-bottom: 130px;
+.margin-b-30px {
+  margin-bottom: 30px;
 }
 
-.margin-b-300 {
+.padding-b-300px {
   padding-bottom: 300px;
+}
+
+.padding-b-150px {
+  padding-bottom: 150px;
 }
 
 .margin-t-15 {
@@ -640,6 +706,10 @@ a {
 .padding-tb {
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.padding-top-30px {
+  padding-top: 530px;
 }
 
 .z-15 {
@@ -681,6 +751,20 @@ a {
   z-index: -1;
   opacity: 1;
   background: linear-gradient(rgba(0, 0, 0, 0.0) 10%,#0a0a0a 60%);
+ }
+
+ .img-overlay-bethany::after {
+  content: '';
+  color: var(--clr-primary-400);
+  width: 100%;
+  height: 100%;
+  /* border-radius: 15px; */
+  position: absolute;
+  top: 0px;
+  left: 0;
+  z-index: -1;
+  opacity: 1;
+  background: linear-gradient(rgba(0, 0, 0, 0.0) 10%,#0a0a0a 90%);
  }
 
 h1 {
@@ -1193,8 +1277,12 @@ label.required:after {
     margin-bottom: 5px;
   }
 
-  .margin-t-30px {
+  .margin-t-15px {
     margin-top: 15px;
+  }
+
+  .margin-t-30px {
+    margin-top: 30px;
   }
 
   .fs-4000 {
