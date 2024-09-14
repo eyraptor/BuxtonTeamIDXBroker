@@ -20,8 +20,9 @@
   --fw-bold: 700;
   --fw-black: 900;
 
-  --fs-300: 0.8125;
-  --fs-350: 0.85;
+  --fs-200: .75rem;
+  --fs-300: 0.8125rem;
+  --fs-350: 0.85rem;
   --fs-400: 0.875rem;
   --fs-500: 1rem;
   --fs-550: 1.25rem;
@@ -58,6 +59,9 @@
   --size-6000: 10rem;
 }
 
+.fs-200 {
+  font-size: var(--fs-200);
+}
 .fs-300 {
   font-size: var(--fs-300);
 }
@@ -314,6 +318,11 @@ a {
   margin-top: 5em;
   padding-top: 3em;
   padding-bottom: 3em;
+}
+
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .mobile-nav-toggle {
@@ -817,7 +826,6 @@ img {
 .hero-footer-pic {
     width: 250px;
     height: auto;
-    margin: 20px 0px;
   }
 
 .var-large {
@@ -924,14 +932,20 @@ label.required:after {
 .footer-left {
   display: block;
   margin-left: 25px;
+  margin-top: 25px;
 }
 
 .footer-right {
   display: flex;
-  margin: 25px;
-  padding-top: 50px;
+  margin-top: 25px;
   justify-content: space-around;
 }
+
+.flex-start {
+  display: flex;
+  align-items: start;
+}
+
 
 .margin-tb-25 {
   margin: 25px 0;
@@ -1146,7 +1160,6 @@ label.required:after {
   .footer-left {
     display: flex;
     flex-direction: column;
-    padding-top: 50px;
     justify-content: space-around;
   }
 
@@ -1269,6 +1282,7 @@ label.required:after {
     grid-template-rows: auto auto;
     grid-template-rows: repeat(2, 1fr);
   }
+
   h3 {
     font-size: var(--fs-550);
   }
@@ -1278,6 +1292,21 @@ label.required:after {
    max-width: 100%;
    margin-inline: 25px;
    margin-bottom: 100px;
+  }
+
+  .footer-left {
+    font-size: var(--fs-200);
+  }
+
+  .hero-footer-pic {
+    width: 100px;
+    height: auto;
+    margin: 0px 0px;
+    border-radius: 8px;
+  }
+
+  .footer-right {
+    font-size: var(--fs-300);
   }
 }
 
@@ -1312,9 +1341,8 @@ label.required:after {
   }
 
   .hero-footer-pic {
-    width: 100px;
+    width: 75px;
     height: auto;
-    margin: 20px 0px;
   }
 
   h1 {
@@ -1327,5 +1355,20 @@ label.required:after {
   .img-overlay3::after {
   font-size: var(--fs-900);
  }
+ 
+  .flex-start {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
 
+  .footer-left {
+    padding-top: 0px;
+    margin-top: 25px;
+  }
+
+  .footer-right {
+    padding-top: 0px;
+    margin-top: 25px;
+  }
 }
