@@ -38,11 +38,11 @@
   --fs-9000: 9rem;
   --fs-10000: 10rem;
 
-  /* --fs-body: var(--fs-400);
+  --fs-body: var(--fs-400);
   --fs-primary-heading: var(--fs-900);
   --fs-secondary-heading: var(--fs-700);
   --fs-nav: var(--fs-500);
-  --fs-button: var(--fs-300); */
+  --fs-button: var(--fs-300);
 
   --size-100: 0.25rem;
   --size-200: 0.5rem;
@@ -279,6 +279,30 @@ svg {
   opacity: 1;
 }
 
+.body-edmond {
+  font-size: var(--fs-body);
+  font-family: var(--ff-body);
+  color: var(--clr-primary-100);
+  background-image: url('/Images/Edmond Painted Wall by Railyards Aligned.jpg');
+  background-position: top center;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  opacity: 1;
+}
+
+.body-piedmont {
+  font-size: var(--fs-body);
+  font-family: var(--ff-body);
+  color: var(--clr-primary-100);
+  background-image: url('/Images/Piedmont House Brick1200X844.webp');
+  background-position: bottom 100px center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  opacity: 1;
+}
+
 .body-nichols-hills {
   font-size: var(--fs-body);
   font-family: var(--ff-body);
@@ -366,7 +390,7 @@ a {
 
 .nav-list {
   display: flex;
-  gap: clamp(var(--size-400), 5vw, var(--size-700));
+  gap: clamp(var(--size-400), 3vw, var(--size-700));
   font-weight: var(--fw-semi-bold);
   font-size: var(--fs-nav);
   padding: 4px;
@@ -379,6 +403,10 @@ a {
 
 .white-back {
   background-color: white;
+}
+
+.nav-list-black-back {
+  background-color: black;
 }
 
 .black-back {
@@ -557,15 +585,29 @@ a {
 }
 
 .add-radius-20px {
-  border-radius: 20px;
+  border-radius: 15px;
 }
 
 .add-border {
-  border: 4px solid black;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 10px;
-  border-radius: 10px;
+  border: 2px solid white;
+  border-radius: 12px 0 0 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: 30px
+  /* border-radius: 10px; */
+}
+
+.add-4-side-border {
+  border: 2px solid white;
+  border-radius: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: 30px
+  /* border-radius: 10px; */
 }
 
 #IDX-qsSubmit-26136 {
@@ -657,6 +699,9 @@ a {
 .padding-l-15px {
   padding-left: 15px;
 }
+.padding-r-10px {
+  padding-right: 10px;
+}
 
 .padding-r-15px {
   padding-right: 15px;
@@ -724,6 +769,14 @@ a {
 
 .padding-b-150px {
   padding-bottom: 150px;
+}
+
+.margin-top-6px {
+  margin-top: 6px;
+}
+
+.margin-top-10 {
+  margin-top: 10px;
 }
 
 .margin-t-15 {
@@ -811,19 +864,6 @@ a {
   background: linear-gradient(rgba(0, 0, 0, 0.0) 0%,#0a0a0a 70%);
  }
 
- .img-overlay-edmond::after {
-  content: 'Learn More About The Edmond Community';
-  font-size: var(--fs-1000);
-  width: 100%;
-  height: 100%;
-  /* border-radius: 15px; */
-  position: absolute;
-  top: 130px;
-  left: 0;
-  z-index: -1;
-  opacity: 1;
-  background: linear-gradient(rgba(0, 0, 0, 0.0) 0%,#0a0a0a 70%);
- }
 
  .img-overlay-bethany::after {
   content: '';
@@ -986,7 +1026,7 @@ label.required:after {
 .footer-right {
   display: flex;
   margin-top: 25px;
-  margin-right: 10px;
+  margin-inline: 10px;
   justify-content: space-around;
 }
 
