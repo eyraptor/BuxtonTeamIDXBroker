@@ -303,6 +303,30 @@ svg {
   opacity: 1;
 }
 
+.body-yukon {
+  font-size: var(--fs-body);
+  font-family: var(--ff-body);
+  color: var(--clr-primary-100);
+  background-image: url('/Images/Yukon White House Dusk1200X795.webp');
+  background-position: top -200px center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 1;
+}
+
+.body-the-village {
+  font-size: var(--fs-body);
+  font-family: var(--ff-body);
+  color: var(--clr-primary-100);
+  background-image: url('/Images/TheVillageGreen House1200X800.webp');
+  background-position: bottom 90px center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 1;
+}
+
 a {
   color: var(--clr-primary-100);
   text-decoration:none;
