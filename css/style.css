@@ -938,6 +938,7 @@ label.required:after {
 .footer-right {
   display: flex;
   margin-top: 25px;
+  margin-right: 10px;
   justify-content: space-around;
 }
 
