@@ -487,6 +487,8 @@ a {
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 10px;
   place-items: center;
+  max-width: 1500px;
+  margin-inline: auto;
 }
 
 .grid-item {
@@ -750,6 +752,10 @@ a {
   margin-bottom: 20px;
 }
 
+.margin-b-30px {
+  margin-bottom: 30px;
+}
+
 .text-align-l {
   text-align: left;
 }
@@ -764,8 +770,8 @@ a {
   margin-right: 30px;
 }
 
-.margin-b-30px {
-  margin-bottom: 30px;
+.padding-bottom-30px {
+  padding-bottom: 30px;
 }
 
 .padding-b-300px {
@@ -1385,6 +1391,12 @@ label.required:after {
     grid-template-columns: 100%;
     grid-template-rows: auto auto;
     grid-template-rows: repeat(2, 1fr);
+  }
+
+  .grid-container2 {
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-rows: repeat(1, 1fr);
   }
 
   h3 {
