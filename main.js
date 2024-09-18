@@ -160,21 +160,3 @@ window.addEventListener('scroll', checkBoxes)
     // slides[2].style.left = slideWidth * 2 + 'px';
     // slides[3].style.left = slideWidth * 3 + 'px';
     // slides[4].style.left = slideWidth * 4 + 'px';
-
-  
-    dotsNav.addEventListener('click', e => {
-        // what indicator was clicked on?
-        const targetDot = e.target.closest('button');
-
-        if (!targetDot) return;
-
-        const currentSlide = track.querySelectorAll('.currentj-slide');
-        const currentDot = dotsNav.querySelectorAll('.current-slide');
-        const targetIndex = dots.findIndex(dot => dot === targetDot);
-        const targetSlide = slide[targetIndex];
-
-        moveToSlide(track, currentSlide, targetSlide);
-        updateDots(currentDot, targetDot);
-        hideShowArrows(slides, prevButton, nextButton, targetIndex);
-
-    })
