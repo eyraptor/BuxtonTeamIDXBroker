@@ -650,7 +650,7 @@ a {
   /* border-radius: 10px; */
 }
 
-#IDX-qsSubmit-26136 {
+#IDX-qsSubmit-24928 {
   color: var(--clr-primary-100);
   border-radius: 10px;
   width: 150px;
@@ -660,12 +660,12 @@ a {
   font-weight: var(--fw-black);
 }
 
-#IDX-qsSubmit-26136:hover, 
-#IDX-qsSubmit-26136:focus {
+#IDX-qsSubmit-24928:hover, 
+#IDX-qsSubmit-24928:focus {
   cursor: pointer;
 }
 
-#IDX-quicksearch-26136 {
+#IDX-quicksearch-24928 {
   margin: 100px 50px 0px 50px;
   padding: 25px 25px 5px 25px;
   background-color: white;
