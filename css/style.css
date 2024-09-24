@@ -677,6 +677,10 @@ a {
   color: var(--clr-primary-400);
 }
 
+.IDX-wrapper-standard .IDX-btn-link {
+  color: white;
+}
+
 .search-icon-after:after {
   content: '';
   position: absolute;
