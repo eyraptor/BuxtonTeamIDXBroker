@@ -588,6 +588,10 @@ a {
   max-width: 40%;
 }
 
+.height-150px {
+  height: 150px;
+}
+
 .height-500 {
   max-height: 500px;
 }
