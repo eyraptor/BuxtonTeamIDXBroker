@@ -1510,7 +1510,7 @@ label.required:after {
     height: 30px;
     aspect-ratio: 1;
     z-index: 1;
-    background-image: url('https://buxtonteam.com/Images/hamburger-menu-svgrepo-com.svg');
+    background-image: url('/Images/hamburger-menu-svgrepo-com.svg');
     background-color: white;
     border: 0px;
   }
@@ -1523,7 +1523,7 @@ label.required:after {
     color: var(--clr-primary-400);
     z-index: 1;
     border: none;
-    background-image: url('https://buxtonteam.com/Images/icon-close.svg');
+    background-image: url('/Images/icon-close.svg');
     background-color: white;
   }
 
