@@ -628,6 +628,17 @@ a {
   /* border-radius: 10px; */
 }
 
+.add-border2 {
+  border: 2px solid white;
+  /* border-radius: 12px 0 0 12px; */
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 4px;
+  padding-bottom: 5px;
+  height: 30px
+  /* border-radius: 10px; */
+}
+
 .add-4-side-border {
   border: 2px solid white;
   border-radius: 12px;
@@ -740,6 +751,10 @@ a {
 
 .max-width-1500px {
   max-width: 1500px;
+}
+
+.padding-l-5px {
+  padding-left: 5px;
 }
 
 .padding-l-15px {
