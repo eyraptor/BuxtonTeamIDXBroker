@@ -91,6 +91,19 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"
       integrity="sha512-wK2NuxEyN/6s53M8G7c6cRUXvkeV8Uh5duYS06pAdLq4ukc72errSIyyGQGYtzWEzvVGzGSWg8l79e0VkTJYPw=="
       crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script  type="text/javascript">
+        const primaryHeader = document.querySelector(".primary-header");
+          const navToggle = document.querySelector(".mobile-nav-toggle");
+          const primaryNav = document.querySelector(".primary-navigation");
+
+          navToggle.addEventListener("click", () => {
+            primaryNav.hasAttribute("data-visible")
+              ? navToggle.setAttribute("aria-expanded", false)
+              : navToggle.setAttribute("aria-expanded", true);
+            primaryNav.toggleAttribute("data-visible");
+            primaryHeader.toggleAttribute("data-overlay");
+          });
+      </script>
 
     <script src="/main.js" type="module"></script>
 
