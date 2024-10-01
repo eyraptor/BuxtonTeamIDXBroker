@@ -1061,7 +1061,7 @@ a {
  }
 
 .img-overlay-WarrAcres::after {
-  content: 'Learn More About The Warr Acres Community';
+  content: '';
   color: var(--clr-primary-100);
   width: 100%;
   height: 100%;
