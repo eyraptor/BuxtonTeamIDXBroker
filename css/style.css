@@ -506,6 +506,11 @@ a {
   margin-inline: auto;
 }
 
+.container-hidden {
+  max-width: 1500px;
+  overflow: hidden;
+}
+
 .grid-container3 {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -679,10 +684,6 @@ a {
 
 .IDX-wrapper-standard .IDX-btn-link {
   color: white;
-}
-
-.idx-listings-carousel-65865 {
-  overflow: hidden;
 }
 
 .search-icon-after:after {
