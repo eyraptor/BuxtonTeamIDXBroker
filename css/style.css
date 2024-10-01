@@ -284,7 +284,7 @@ svg {
   font-size: var(--fs-body);
   font-family: var(--ff-body);
   color: var(--clr-primary-100);
-  background-image: url('/Images/Bethany Home1200X800.webp');
+  background-image: url('/Images/BethanyHome1200X800.webp');
   background-position: center;
   background-size:cover;
   background-repeat: no-repeat;
