@@ -276,7 +276,7 @@ svg {
   background-size:cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: top, bottom;
+  background-position: top;
   opacity: 1;
 }
 
