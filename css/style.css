@@ -974,7 +974,7 @@ a {
  }
 
  .img-overlayPiedmont::after {
-  content: 'Learn More About The Piedmont Community';
+  content: '';
   font-size: var(--fs-1000);
   width: 100%;
   height: 100%;
