@@ -1014,7 +1014,7 @@ a {
  }
 
  .img-overlay-bethany::after {
-  content: 'Learn More About The Bethany Community';
+  content: '';
   font-size: var(--fs-1000);
   color: var(--clr-primary-100);
   width: 100%;
