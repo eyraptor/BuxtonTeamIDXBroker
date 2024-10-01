@@ -301,7 +301,7 @@ svg {
   background-size:contain;
   background-repeat: no-repeat;
   background-attachment:fixed;
-  background-position: top, bottom;
+  background-position: bottom;
   opacity: 1;
 }
 
