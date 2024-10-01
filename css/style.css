@@ -1026,7 +1026,7 @@ a {
   left: 0;
   z-index: -1;
   opacity: 1;
-  background: linear-gradient(rgba(0, 0, 0, 0.0) 10%,#0a0a0a 90%);
+  background: linear-gradient(rgba(0, 0, 0, 0.0) 0%,#0a0a0a 70%);
  }
  
  .img-overlay-TheVillage::after {
