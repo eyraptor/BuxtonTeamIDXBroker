@@ -1089,7 +1089,7 @@ a {
  }
 
 .img-overlay-nichols-hills::after {
-  content: 'Learn More About The Yukon Community';
+  content: '';
   color: var(--clr-primary-100);
   width: 100%;
   height: 100%;
