@@ -1003,7 +1003,7 @@ a {
  }
  
 .img-overlayArcadia::after {
-  content: 'Learn More About The Arcadia Community';
+  content: '';
   font-size: var(--fs-1000);
   color: var(--clr-primary-100);
   width: 100%;
