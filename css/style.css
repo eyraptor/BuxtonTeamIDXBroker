@@ -687,6 +687,10 @@ a {
   color: white;
 }
 
+..idx-listings-carousel__properties {
+  overflow: hidden;
+}
+
 .search-icon-after:after {
   content: '';
   position: absolute;
