@@ -276,7 +276,7 @@ svg {
   background-size:cover;
   background-repeat: no-repeat;
   background-attachment:fixed;
-  background-position: top;
+  background-position: top, bottom;
   opacity: 1;
 }
 
@@ -289,7 +289,7 @@ svg {
   background-size:cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: top;
+  background-position: top, bottom;
   opacity: 1;
 }
 
@@ -302,7 +302,7 @@ svg {
   background-size:contain;
   background-repeat: no-repeat;
   background-attachment:fixed;
-  background-position: top;
+  background-position: top, bottom;
   opacity: 1;
 }
 
