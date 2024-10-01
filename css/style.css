@@ -273,7 +273,7 @@ svg {
   font-family: var(--ff-body);
   color: var(--clr-primary-100);
   background-image: url('/Images/Arcadia-Red-Barn1200X800.webp');
-  background-size:contain;
+  background-size:cover;
   background-repeat: no-repeat;
   background-attachment:fixed;
   background-position: top;
