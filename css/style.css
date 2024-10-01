@@ -289,6 +289,7 @@ svg {
   background-size:cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-position: top;
   opacity: 1;
 }
 
@@ -301,6 +302,7 @@ svg {
   background-size:contain;
   background-repeat: no-repeat;
   background-attachment:fixed;
+  background-position: top;
   opacity: 1;
 }
 
