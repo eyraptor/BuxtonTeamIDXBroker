@@ -296,7 +296,7 @@ svg {
   font-size: var(--fs-body);
   font-family: var(--ff-body);
   color: var(--clr-primary-100);
-  background-image: url('/Images/Edmond Painted Wall by Railyards Aligned.jpg');
+  background-image: url('/Images/EdmondPaintedWallbyRailyardsAligned.jpg');
   background-position: top center;
   background-size:contain;
   background-repeat: no-repeat;
@@ -308,7 +308,7 @@ svg {
   font-size: var(--fs-body);
   font-family: var(--ff-body);
   color: var(--clr-primary-100);
-  background-image: url('/Images/Piedmont House Brick1200X844.webp');
+  background-image: url('/Images/PiedmontHouseBrick1200X844.webp');
   background-position: bottom 100px center;
   background-size:cover;
   background-repeat: no-repeat;
@@ -320,7 +320,7 @@ svg {
   font-size: var(--fs-body);
   font-family: var(--ff-body);
   color: var(--clr-primary-100);
-  background-image: url('/Images/Nichols Hills Home Night1200X800.webp');
+  background-image: url('/Images/NicholsHillsHomeNight1200X800.webp');
   background-position: bottom;
   background-size:cover;
   background-repeat: no-repeat;
