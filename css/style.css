@@ -248,7 +248,7 @@ svg {
   font-size: var(--fs-body);
   font-family: var(--ff-body);
   color: var(--clr-primary-100);
-  background-image: url('/City Street with Pools.png');
+  background-image: url('/CityStreetwithPools.png');
   background-size:cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
