@@ -987,6 +987,7 @@ a {
 .img-overlayOKC::after {
   content: 'Learn More About The Oklahoma City Community';
   font-size: var(--fs-1000);
+  color: var(--clr-primary-100);
   width: 100%;
   height: 100%;
   /* border-radius: 15px; */
