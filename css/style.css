@@ -1011,7 +1011,21 @@ a {
  }
 
  .img-overlay-bethany::after {
-  content: '';
+  content: 'Learn More About The Bethany Community';
+  color: var(--clr-primary-400);
+  width: 100%;
+  height: 100%;
+  /* border-radius: 15px; */
+  position: absolute;
+  top: 0px;
+  left: 0;
+  z-index: -1;
+  opacity: 1;
+  background: linear-gradient(rgba(0, 0, 0, 0.0) 10%,#0a0a0a 90%);
+ }
+ 
+ .img-overlay-NicholsHills::after {
+  content: 'Learn More About The Nichols Hills Community';
   color: var(--clr-primary-400);
   width: 100%;
   height: 100%;
