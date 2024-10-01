@@ -1024,8 +1024,8 @@ a {
   background: linear-gradient(rgba(0, 0, 0, 0.0) 10%,#0a0a0a 90%);
  }
  
- .img-overlay-NicholsHills::after {
-  content: 'Learn More About The Nichols Hills Community';
+ .img-overlay-TheVillage::after {
+  content: 'Learn More About The Village Community';
   color: var(--clr-primary-400);
   width: 100%;
   height: 100%;
