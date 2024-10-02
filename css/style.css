@@ -296,7 +296,7 @@ svg {
   font-size: var(--fs-body);
   font-family: var(--ff-body);
   color: var(--clr-primary-100);
-  background-image: url('/Images/EdmondPaintedWallbyRailyardsAligned.jpg');
+  background-image: url('/Images/EdmondPaintedWallbyRailyardsAligned.webp');
   background-position: top center;
   background-size:contain;
   background-repeat: no-repeat;
