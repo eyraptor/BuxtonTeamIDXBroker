@@ -527,7 +527,7 @@ a {
   display: grid;
   grid-template-columns: auto auto;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 10px;
+  grid-gap: 20px;
   place-items: left;
   max-width: 1500px;
   margin-inline: auto;
