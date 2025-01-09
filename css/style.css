@@ -111,8 +111,12 @@
   font-size: var(--fs-10000);
 }
 
-.fw-900 {
+.fw-bold {
   font-weight: var(--fw-bold);
+}
+
+.fw-black {
+  font-weight: var(--fw-black);
 }
 
 .text-color-white {
@@ -611,6 +615,18 @@ a {
   margin-right: auto;
 }
 
+.h-center-div {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.h-center-all {
+  margin-right: auto;
+  margin-left: auto;
+  text-wrap: balance;
+  text-align: center;
+}
+
 .flex-h-align {
   display: flex;
   justify-content: center;
@@ -632,12 +648,12 @@ a {
 
 .add-border {
   border: 2px solid white;
-  border-radius: 12px 0 0 12px;
+  /* border-radius: 12px 0 0 12px;
   padding-left: 5px;
   padding-right: 5px;
   padding-top: 5px;
   padding-bottom: 5px;
-  height: 30px
+  height: 30px */
   /* border-radius: 10px; */
 }
 
@@ -799,6 +815,11 @@ a {
 
 .padding-r-15px {
   padding-right: 15px;
+}
+
+.padding-inline-25px {
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .padding-inline-30px {
@@ -1289,7 +1310,8 @@ label.required:after {
 
 
 .margin-tb-25 {
-  margin: 25px 0;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .margin-rl-25 {
