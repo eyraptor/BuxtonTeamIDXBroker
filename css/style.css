@@ -139,6 +139,10 @@
   color: var(--clr-primary-400);
 }
 
+.clr-pop-100 {
+  color: var(--clr-pop-100);
+}
+
 .under-line-text {
   text-decoration: underline;
 }
@@ -1309,7 +1313,7 @@ label.required:after {
 }
 
 
-.margin-tb-25 {
+.margin-tb-25px {
   margin-top: 25px;
   margin-bottom: 25px;
 }
