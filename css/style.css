@@ -1824,6 +1824,11 @@ label.required:after {
   p {
     font-size: var(--fs-200);
   }
+
+  .padding-inline-25px {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
 }
 
 @media (max-width: 500px) {
