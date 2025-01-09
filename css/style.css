@@ -861,6 +861,10 @@ a {
   margin: auto;
 }
 
+.margin-t-30px {
+  margin-top: 30px;
+}
+
 .margin-b-10 {
   margin-bottom: 10px;
 }
@@ -905,6 +909,10 @@ a {
 
 .padding-b-150px {
   padding-bottom: 150px;
+}
+
+.padding-t-1px {
+  padding-top: 1px;
 }
 
 .margin-top-1px {
