@@ -17,7 +17,21 @@
 
 </head>
 
-<body class='body-home'>
+<!-- <body class='body-home'> -->
+  <body class='body-home' onload="javascript: (function() {  
+  
+      // Your script loading code here
+  
+      var script = document.createElement('script');
+  
+      script.src = '/main.js';
+  
+      script.type = 'module';
+  
+      document.body.appendChild(script);
+  
+   })();">
+  
   <div class='container'>
     <!-- <div class="scroll-tracker"></div> -->
     <header class="primary-header">
