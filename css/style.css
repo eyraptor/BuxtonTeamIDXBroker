@@ -1714,7 +1714,8 @@ label.required:after {
 @media (max-width: 930px) {
   .carousel {
    max-width: 500px;
-   margin-inline: auto;
+   margin-right: auto;
+   margin-left: auto;
   }
 
   .carousel__track-container {
@@ -1824,7 +1825,7 @@ label.required:after {
   .carousel__track-container {
   position: relative;
   overflow: hidden;
-  height: 65ch;
+  height: 50ch;
   }
 
   h4 {
