@@ -803,6 +803,10 @@ a {
 }
 
 .padding-l-5px {
+  padding-left: 5px;
+}
+
+.padding-l-10px {
   padding-left: 10px;
 }
 
