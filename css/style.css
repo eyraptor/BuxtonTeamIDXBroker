@@ -1823,7 +1823,7 @@ label.required:after {
   .carousel__track-container {
   position: relative;
   overflow: hidden;
-  height: 165vh;
+  height: 65ch;
   }
 
   h4 {
