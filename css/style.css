@@ -1298,7 +1298,7 @@ img {
 }
 
 .width-auto {
-  max-width: 100%;
+  width: 100%;
 }
 
 label.required:after {
@@ -1835,8 +1835,8 @@ label.required:after {
   }
 
   .padding-inline-25px {
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
