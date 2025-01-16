@@ -1481,7 +1481,7 @@ label.required:after {
 .carousel__track-container {
   position: relative;
   overflow: hidden;
-  height: 62vh;
+  height: 85vh;
 }
 
 .carousel__track {
