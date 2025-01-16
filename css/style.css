@@ -1816,7 +1816,7 @@ label.required:after {
   }
 
   .carousel {
-    width: 300px;
+    maz-width: 700px;
     margin-inline: auto;
   }
 
