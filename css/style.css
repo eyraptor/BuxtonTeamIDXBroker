@@ -1718,7 +1718,7 @@ label.required:after {
   }
 
   .carousel__track-container {
-    height: 62vh;
+    height: 75vh;
   }
 
   p {
@@ -1823,7 +1823,7 @@ label.required:after {
   .carousel__track-container {
   position: relative;
   overflow: hidden;
-  height: 100vh;
+  height: 75vh;
   }
 
   h4 {
